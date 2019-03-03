@@ -1,0 +1,55 @@
+.zs-score-table {
+    border-collapse: collapse;
+}
+
+.zs-score-table td {
+    padding: 3px;
+}
+
+.zs-score-table .zs-score-table__team {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    width: 150px;
+}
+
+.zs-score-table .zs-score-table__team.zs-score-table__team_space {
+    width: 5px;
+}
+
+.zs-score-table .zs-score-table__team.zs-score-table__team_right {
+
+    text-align: left;
+}
+
+.zs-score-table .zs-score-table__value {
+    text-align: center;
+}
+
+.zs-score-table .zs-score-table__value.zs-score-table__value_left {
+    text-align: right;
+}
+
+.zs-score-table .zs-score-table__value.zs-score-table__value_right {
+    text-align: left;
+}
+
+.zs-score-table .zs-field {
+    padding: 0 5px;
+    color: #535c69;
+    position: relative;
+    height: 38px;
+    width: 120px;
+    border: 1px solid #dddee1;
+    border-radius: 2px;
+    background: #fff;
+    font: 15px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    display: inline-block;
+}
+
+.zs-score-table .zs-score-table__value .zs-field {
+    width: 50px;
+    text-align: center;
+}

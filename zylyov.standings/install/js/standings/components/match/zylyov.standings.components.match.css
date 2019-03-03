@@ -1,0 +1,89 @@
+.zs-standing-outer {
+    position: relative;
+    background: #fff;
+    min-height: 220px;
+}
+
+.zs-standing-outer.zs-standing-outer_depth-1 {
+    min-height: 100px;
+}
+
+.zs-standing {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: center;
+}
+
+.zs-standing .zs-standing__complete {
+    display: inline-block;
+    padding: 3px 3px 1px 4px;
+    height: 20px;
+    min-width: 12px;
+    background: #fff;
+    border: 1px solid #dddee1;
+    border-radius: 20px;
+    color: #535C69;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.zs-standing .zs-standing__center {
+    width: 30px;
+    position: relative;
+}
+
+.zs-standing .zs-standing__center .zs-match__connector {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 1px);
+    height: 2px;
+    width: 50px;
+    left: -10px;
+    border-top: 2px solid #dddee1;
+}
+
+.zs-labels {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.zs-labels.zs-labels_final {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -89px;
+    margin-top: -60px;
+}
+
+.zs-standing-outer_depth-1 .zs-labels.zs-labels_final {
+    top: 0;
+    margin-top: 0;
+}
+
+.zs-labels .zs-labels__label {
+    display: inline-block;
+    width: 178px;
+    text-align: center;
+}
+
+.zs-labels .zs-labels__label.zs-labels__label_wide {
+    width: 375px;
+}
+
+.zs-match-3rd-place {
+    position: absolute;
+    width: 390px;
+    left: 50%;
+    top: 50%;
+    margin-left: -195px;
+    margin-top: 60px;
+}
+
+.zs-standing-outer_depth-2 .zs-match-3rd-place {
+    margin-top: 20px;
+}
