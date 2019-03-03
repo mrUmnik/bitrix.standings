@@ -40,7 +40,7 @@
     background: #fff;
     border: 1px solid #dddee1;
     border-radius: 20px;
-    color: rgba(83, 92, 105);
+    color: #535C69;
     position: relative;
     z-index: 2;
     cursor: pointer;
@@ -161,7 +161,7 @@
     background: #fff;
     border: 1px solid #dddee1;
     border-radius: 20px;
-    color: rgba(83, 92, 105);
+    color: #535C69;
     position: relative;
     z-index: 2;
     cursor: pointer;

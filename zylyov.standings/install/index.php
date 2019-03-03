@@ -41,7 +41,6 @@ class zylyov_standings extends CModule
         } else {
             ModuleManager::registerModule($this->MODULE_ID);
             $this->installDB();
-            // @todo убрать сортировку из zylyov_standing_team
             $this->installEvents();
             $this->installFiles();
         }
